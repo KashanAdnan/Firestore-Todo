@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: tomato;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.form-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container input {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    width: 82%;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background-color: tomato;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.show-container {
+    width: 50%;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+    justify-content: flex-start;
+    padding: 10px 30px;
+    flex-direction: column;
+}
+
+
+.show-container .main-be{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+.show-container .main-be button{
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid tomato;
+    color: tomato;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
